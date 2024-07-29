@@ -13,4 +13,18 @@ const Perguntas = [
       ]  
     }
 
-]
+];
+ let atual = 0;
+ let perguntaAtual;
+ function mostraPerguntas(){
+  
+  perguntaAtual = perguntas [atual];
+  caixaPerguntas. textContent = perguntas[0].enunciado;
+   mostraPerguntas();}
+    
+   function mostraPerguntas(); {
+if (atual>=perguntas.lenght)
+ mostraResultados();
+ return;
+
+   }
